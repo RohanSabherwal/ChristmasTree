@@ -1,5 +1,3 @@
-
-
 christmasTree:{[n]
   tree:{[x;n]
     spaces: ((n - 1) - x) #" ";

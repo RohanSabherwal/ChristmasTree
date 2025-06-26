@@ -9,10 +9,11 @@ christmasTree:{[n]
     maxWidth: (2 * n) - 1;
     padding:((maxWidth-3) div 2)#" ";
     trunk: padding, "|||";
-    tree, enlist trunk}
+    -1 each tree, enlist trunk;::}
 
 christmasTree[first "I"$params[`height]]
 
-exit 0   
+exit 0
+
 
 
